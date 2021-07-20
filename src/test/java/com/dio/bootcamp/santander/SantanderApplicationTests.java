@@ -1,10 +1,10 @@
-package com.diosantander.controlepontos;
+package com.dio.bootcamp.santander;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ControlepontosApplicationTests {
+class SantanderApplicationTests {
 
 	@Test
 	void contextLoads() {
