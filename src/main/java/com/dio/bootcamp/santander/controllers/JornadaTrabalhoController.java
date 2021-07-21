@@ -2,7 +2,6 @@ package com.dio.bootcamp.santander.controllers;
 
 import com.dio.bootcamp.santander.dtos.requests.JornadaTrabalhoDTO;
 import com.dio.bootcamp.santander.dtos.response.MessageResponseDTO;
-import com.dio.bootcamp.santander.entities.JornadaTrabalho;
 import com.dio.bootcamp.santander.exceptions.JornadaTrabalhoNotFoundException;
 import com.dio.bootcamp.santander.services.JornadaTrabalhoService;
 import lombok.AllArgsConstructor;
