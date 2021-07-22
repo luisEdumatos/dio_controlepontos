@@ -27,7 +27,6 @@ As entidades implementadas são as mesmas constuidas na aula da Dio, conforme mo
 
 ![image](https://user-images.githubusercontent.com/32941370/126691533-0c4f76f9-4cb0-4c56-b999-2a00b51ab7d9.png)
 
-Perfis de desenvolvimento
 A API possui no caminho \src\main\resources 3 arquivos do tipo .properties que são responsáveis por definir perfis de desenvolvimento. O arquivo application-dev.properties define as configurações do banco local H2 que é utilizado no perfil de desenvolvimento. Para o perfil de produção, o arquivo application-prod.properties define as configurações do banco de dados PostgreSQL.
 
 ## Demais informações sobre o projeto 🛠️
