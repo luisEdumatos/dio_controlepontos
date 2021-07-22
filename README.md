@@ -12,6 +12,11 @@ conversão do objeto DTO para o objeto da regra de negócio.
 Foi implementado o CRUD para JornadaTrabalho e Usuario. Fica em aberto no projeto a implementação dos demais
 CRUD's da regra de negocio. 
 
+Conforme apresentado na aula, neste projeto também foi utilizado o Hibernate Envers para realização de auditoria 
+nas tabelas do banco. Abaixo é possível verificar a criação das tabelas auditáveis no banco H2
+
+Também conforme apresentando na aula, foi utilizado na implementação a configuração do Swagger. Ao executar o projeto,
+basta acessar o endereço http://localhost:8080/swagger-ui.html para analisar o que foi apresentado pelo Swagger.
 
 ## Funcionamento do projeto 
 
