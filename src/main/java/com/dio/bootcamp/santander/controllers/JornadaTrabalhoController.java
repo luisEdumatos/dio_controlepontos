@@ -13,7 +13,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping("/jornada")
+@RequestMapping("/jornadas")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class JornadaTrabalhoController {
 

@@ -5,7 +5,7 @@ import com.dio.bootcamp.santander.entities.JornadaTrabalho;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
-@Mapper(componentModel = "spring")
+@Mapper
 public interface JornadaTrabalhoMapper {
 
     JornadaTrabalhoMapper INSTANCE = Mappers.getMapper(JornadaTrabalhoMapper.class);
