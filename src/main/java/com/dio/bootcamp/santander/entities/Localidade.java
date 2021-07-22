@@ -1,6 +1,7 @@
 package com.dio.bootcamp.santander.entities;
 
 import lombok.*;
+import org.hibernate.envers.Audited;
 
 import javax.persistence.*;
 
@@ -10,6 +11,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Entity
+@Audited
 public class Localidade {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

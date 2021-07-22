@@ -1,6 +1,7 @@
 package com.dio.bootcamp.santander.entities;
 
 import lombok.*;
+import org.hibernate.envers.Audited;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -11,6 +12,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Entity
+@Audited
 public class Calendario {
 
     @Id

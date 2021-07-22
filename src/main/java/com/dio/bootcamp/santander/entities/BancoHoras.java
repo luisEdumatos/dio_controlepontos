@@ -1,6 +1,7 @@
 package com.dio.bootcamp.santander.entities;
 
 import lombok.*;
+import org.hibernate.envers.Audited;
 
 import javax.persistence.Embeddable;
 import javax.persistence.EmbeddedId;
@@ -15,6 +16,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Entity
+@Audited
 public class BancoHoras {
 
     @AllArgsConstructor

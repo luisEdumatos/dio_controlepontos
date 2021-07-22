@@ -1,6 +1,7 @@
 package com.dio.bootcamp.santander.entities;
 
 import lombok.*;
+import org.hibernate.envers.Audited;
 
 import javax.persistence.*;
 
@@ -9,6 +10,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
+@Audited
 public class JornadaTrabalho {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
